@@ -2,13 +2,13 @@
 	
 }
 
+
 .App-header {
 	display: flex;
 	border-bottom-style: solid;
 	border-color: red;
 	border-width: 3px;
 }
-
 .App-logo {
 	height: 100px;
 }
@@ -27,4 +27,4 @@
 	text-align: center;
 	bottom: 0;
 	width: 100%;
-}
+}	
