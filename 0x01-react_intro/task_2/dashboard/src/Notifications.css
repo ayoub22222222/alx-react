@@ -13,3 +13,7 @@ button {
 	height: 20px;
 }
 
+li:nth-child(2),
+li:nth-child(3) {
+	color: red;
+}
