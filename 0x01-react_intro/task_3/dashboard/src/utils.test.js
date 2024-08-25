@@ -18,6 +18,9 @@ test("return the right notification", () => {
 });
 */
 
+import React from 'react';
+import Enzyme, { shallow } from 'enzyme';
+
 describe("name of the chain of does test", () => {
 	it("the first test", () => {
 		const foo = true;
