@@ -1,4 +1,3 @@
-/*
 import { getFullYear, getFooterCopy, getLatestNotification } from './utils';
 
 
@@ -16,14 +15,4 @@ test('check that getFooterCopy returns the correct string when the argument is t
 test("return the right notification", () => {
 	expect(getLatestNotification()).toBe("<strong>Urgent requirement</strong> - complete by EOD");
 });
-*/
 
-import React from 'react';
-import Enzyme, { shallow } from 'enzyme';
-
-describe("name of the chain of does test", () => {
-	it("the first test", () => {
-		const foo = true;
-		expect(foo).toBe(true)
-	});
-})
