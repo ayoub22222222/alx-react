@@ -1,0 +1,19 @@
+.Notifications {
+	border-style: solid;
+	padding: 10px 10px 10px;
+	display: grid;	
+	grid-template-columns: 30fr 1fr;
+	align-items: center;
+
+	
+}
+
+button {
+	width: 20px;
+	height: 20px;
+}
+
+li:nth-child(2),
+li:nth-child(3) {
+	color: red;
+}
