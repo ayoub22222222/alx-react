@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (5:18)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n| \\n| \\n> const App = () => <h1>hello hello</h1>;\\n| \\n| ReactDom.render(<App />, document.getElementById('root'));\");\n\n//# sourceURL=webpack://dashboard/./src/index.js?");
+eval("\nconsole.log(\"hi evreybody\");\n\n\n//# sourceURL=webpack://dashboard/./src/index.js?");
 
 /***/ })
 
@@ -24,7 +24,7 @@ eval("throw new Error(\"Module parse failed: Unexpected token (5:18)\\nYou may n
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
 /******/ 	__webpack_modules__["./src/index.js"]();
 /******/ 	
