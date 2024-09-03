@@ -9,10 +9,14 @@ module.exports = {
     path: path.resolve("./dist"),
   },
   devServer: {
+     static: {
+	     directory: path.resolve(__dirname, "./dist"),
+	  },
     hot: true,
-    contentBase: path.resolve("./dist"),
     compress: true,
-    port: 8564,
+    port: 3000,
+    open: true,
+    historyApiFallback: true,
   },
   performance: {
     maxAssetSize: 1000000,
