@@ -1,4 +1,6 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 
 module.exports = {
   mode: "development",
@@ -14,7 +16,7 @@ module.exports = {
 	  },
     hot: true,
     compress: true,
-    port: 3000,
+    port: 8080,
     open: true,
     historyApiFallback: true,
   },
@@ -22,6 +24,12 @@ module.exports = {
     maxAssetSize: 1000000,
     maxEntrypointSize: 1000000,
   },
+  
+  plugins: [
+	  new HtmlWebpackPlugin({
+		  title: "web zabbi",
+	  }),
+  ],
   module: {
     rules: [
       {
