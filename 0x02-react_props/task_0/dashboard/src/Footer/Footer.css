@@ -1,24 +1,3 @@
-.App {
-	
-}
-
-
-.App-header {
-	display: flex;
-	border-bottom-style: solid;
-	border-color: red;
-	border-width: 3px;
-}
-.App-logo {
-	height: 100px;
-}
-
-
-.App-header h1 {
-	color: red;
-	align-self: center;
-}
-
 .App-footer {
 	position: fixed;
 	border-top-style: solid;
