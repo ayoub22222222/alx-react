@@ -5,6 +5,7 @@ module.exports = {
 	plugins: [
 		new HtmlWebpackPlugin({
 			title: "webpack output",
+			template: './dist/index.html',
 		}),
 	],
 
@@ -56,5 +57,5 @@ module.exports = {
 		}
 		]
 	},
-	mode: 'devlopment',
+	mode: 'development',
 }

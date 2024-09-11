@@ -1,8 +1,9 @@
 import logo from '../assets/logo.jpg';
-import Footer from '../Footer/Footer.js';
-import Header from '../Header/Header.js'
-import Login from '../Login/Login.js';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+import Login from '../Login/Login';
 import React from 'react';
+import './App.css';
 import Notifications from '../Notifications/Notifications';
 
 function App() {
