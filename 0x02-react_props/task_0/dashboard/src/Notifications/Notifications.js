@@ -1,5 +1,6 @@
 import React from 'react';
 import './Notifications.css';
+import { getLatestNotification } from '../utils/utils';
 import close_image  from '../assets/close_image.png';
 
 function Notifucation() {
@@ -11,6 +12,7 @@ function Notifucation() {
 		        <ul>
 				<li data-priority="high">New course available</li>
 				<li data-priority="medium">New resume available</li>
+				<li dangerouslySetInnerHTML={{ __html: getLatestNotification() }}></li>
 		        </ul>
 		</div>);
 }
