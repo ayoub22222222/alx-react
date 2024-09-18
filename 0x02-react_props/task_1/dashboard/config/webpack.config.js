@@ -23,12 +23,15 @@ module.exports = {
 		hot: true,
 		port: 3000,
 	},
+	resolve: {
+		extensions: ['*', '.js', '.jsx'],
+	},
 
 	module: {
 
 		rules: [
 			{
-			test: /\.js$/,
+			test: /\.(js|jsx)$/,
 			exclude: /node_modules/,
 			use: {
 				loader: 'babel-loader',

@@ -13,4 +13,4 @@ describe('test header', () => {
 		expect(wr.exists('img')).toEqual(true);
 		expect(wr.conatinsMatchingElement(<h1>School dashboard</h1>)).toEqual(true);
 	});
-})
+});

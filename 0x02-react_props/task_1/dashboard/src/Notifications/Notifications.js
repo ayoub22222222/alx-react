@@ -6,7 +6,7 @@ import close_image  from '../assets/close_image.png';
 function Notifucation() {
 	return (<div className="Notifications">
 			<p>Here is the list of notifications</p>
-		        <button  arial-label="Close" onClick={alert('Close button has been clicked')}>
+		        <button  arial-label="Close">
 				<img src={ close_image } alt="close emoji" width="5" height="7"/>
 		        </button>
 		        <ul>
