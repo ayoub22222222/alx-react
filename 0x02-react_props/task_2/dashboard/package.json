@@ -846,14 +846,12 @@
     "yargs-parser": "^20.2.9",
     "yocto-queue": "^0.1.0"
   },
-
   "jest": {
-  "moduleNameMapper": {
-    "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/__mocks__/fileMock.js",
-    "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
-  }
-},
-
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  },
   "scripts": {
     "test": "jest",
     "build": "webpack --config config/webpack.config.js --mode production",
