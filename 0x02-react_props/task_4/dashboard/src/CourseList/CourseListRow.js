@@ -8,7 +8,7 @@ function CourseListRow({isHeader, textFirstCell, textSecondCell}) {
 		<tr>
 			{isHeader ? (
 				textSecondCell == null ? (
-					<th cllSpan={2}>{textFirstCell}</th>
+					<th colSpan={2}>{textFirstCell}</th>
 				) : (
 					<>
 						<th>{textFirstCell}</th>
@@ -24,13 +24,13 @@ function CourseListRow({isHeader, textFirstCell, textSecondCell}) {
 			)
 			}
 			
-		<tr/>
+		</tr>
 	);
 };
 
 
 CourseListRow.propTypes = {
-	isHeader: PropTypes.string.bool,
+	isHeader: PropTypes.bool,
 	textFirstCell: PropTypes.string.isRequired,
 	textSecondCell: PropTypes.string,
 };

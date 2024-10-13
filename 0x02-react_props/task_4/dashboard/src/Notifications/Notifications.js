@@ -1,6 +1,6 @@
 import React from 'react';
 import './Notifications.css';
-import closeIcon from '../assets/close-icon.png';
+import close_image from '../assets/close_image.png';
 import { getLatestNotification } from '../utils/utils';
 import NotificationItem from './NotificationItem';
 import PropTypes from 'prop-types';
@@ -22,7 +22,7 @@ const Notifications = ({ displayDrawer }) => {
 							>
 								<img
 									style={{ display: 'inline' }}
-									src={closeIcon}
+									src={close_image}
 									alt='Close'
 								/>
 							</button>

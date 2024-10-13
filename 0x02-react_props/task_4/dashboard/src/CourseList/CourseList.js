@@ -33,7 +33,7 @@ function CourseList() {
 				< CourseListRow 
 					textFirstCell="React"
 					textSecondCell="40"
-					isHeader=false
+					isHeader={false}
 				/>
 			</tbody>
 		</table>
