@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 
 
@@ -32,7 +33,13 @@ CourseListRow.propTypes = {
 	isHeader: PropTypes.string.bool,
 	textFirstCell: PropTypes.string.isRequired,
 	textSecondCell: PropTypes.string,
-}
+};
+
+CourseListRow.defaultProps = {
+	isHeader: false,
+	textSecondCell: null,
+};
+
 
 
 export default CourseListRow; 
